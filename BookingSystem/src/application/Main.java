@@ -16,7 +16,7 @@ public class Main
         if(f.exists())
         {
             FileInputStream fin = new FileInputStream(f);
-			ObjectInputStream ois = new ObjectInputStream(fin);
+	    ObjectInputStream ois = new ObjectInputStream(fin);
             Hotel.hotel_ob= (Holder) ois.readObject();
             ois.close();
         }
