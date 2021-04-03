@@ -12,7 +12,7 @@ public class Main
 	{
         try
         {           
-        File f = new File("F:/JAVA2021/BookingSystem/src/backup/booking.txt"); // the location where the save was read
+        File f = new File("src/backup/booking.txt"); // the location where the save was read
         if(f.exists())
         {
             FileInputStream fin = new FileInputStream(f);
