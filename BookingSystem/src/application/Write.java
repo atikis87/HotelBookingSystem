@@ -15,7 +15,7 @@ public class Write implements Runnable
 	    public void run() 
 	    {
 	        try{
-	        FileOutputStream fout = new FileOutputStream("F:/JAVA2021/BookingSystem/src/backup/booking.txt"); //specify the save path 
+	        FileOutputStream fout = new FileOutputStream("src/backup/booking.txt"); //specify the save path 
 	        ObjectOutputStream oos = new ObjectOutputStream(fout);
 	        oos.writeObject(hotel_ob);
 	        oos.close();
